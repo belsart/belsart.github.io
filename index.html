@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>test</title>
+    <link rel="stylesheet" href="./css/style.min.css?_v=20221114092858" />
+
+    <script defer src="js/app.min.js?_v=20221114092858"></script>
+  </head>
+
+  <body>
+    <div class="wrapper">
+      <div class="card">
+        <ul class="card__tabs desktop">
+          <li class="card__tab card__tab__active" data-tab="tab-1">
+            Горный велосипед
+          </li>
+          <li class="card__tab" data-tab="tab-2">Женский велосипед</li>
+        </ul>
+
+        <div class="card__content card__content__active tab-1 card1">
+          <!-- <div class="phone-tab phone-tab__active">
+            <span class="phone-tab__title">Горный велосипед</span>
+            <img src="./img/arrow.svg" alt="arrow" class="phone-tab__arrow" />
+          </div> -->
+
+          <div class="mobile-tab tab-active" data-tab="tab-1">
+            <span class="mobile-tab__title">Горный велосипед</span>
+            <img src="./img/arrow.svg" alt="arrow" class="mobile-tab__arrow" />
+          </div>
+
+          <div class="description__box">
+            <img
+              src="./img/image1.png"
+              alt="bicycle"
+              class="description__image"
+            />
+            <img
+              src="./img/image1-mob.png"
+              alt=""
+              class="description__mob-image"
+            />
+            <div class="description__text-box">
+              <h3 class="description__header">
+                Велосипед STELS Navigator 510 HD 26 2022
+              </h3>
+              <p class="description__description">
+                Данный велосипед с колесами 26 дюймов хорошо подходит высоким
+                подросткам. Прогиб рамы и небольшой размер рамы расчитан на рост
+                от 135 до 165 см.
+                <br /><br />
+                Суммарный вес велосипеда был снижен до 16,9 кг, так как рама
+                была изготовлена с учетом использования велосипеда подростками.
+              </p>
+            </div>
+          </div>
+
+          <div class="card__line"></div>
+
+          <div class="characteristics">
+            <h4 class="characteristics__title">Характеристики</h4>
+            <ol class="characteristics__list mountain"></ol>
+          </div>
+
+          <div class="add mountain">
+            <h4 class="add__title">Добавить характеристику</h4>
+            <div class="add__box">
+              <input
+                type="text"
+                class="add__input"
+                placeholder="Алюминиевый сплав"
+              />
+              <button class="add__button" value="mountain">Добавить</button>
+            </div>
+          </div>
+
+          <div class="confirm__box">
+            <button class="confirm__yes mountain" value="mountain">Окей</button>
+            <button class="confirm__no mountain" value="mountain">
+              Отмена
+            </button>
+          </div>
+        </div>
+
+        <div class="card__content tab-2 card2">
+          <!-- <div class="phone-tab">
+            <span class="phone-tab__title">Женский велосипед</span>
+            <img src="./img/arrow.svg" alt="arrow" class="phone-tab__arrow" />
+          </div> -->
+
+          <div class="mobile-tab" data-tab="tab-2">
+            <span class="mobile-tab__title">Женский велосипед</span>
+            <img src="./img/arrow.svg" alt="arrow" class="mobile-tab__arrow" />
+          </div>
+
+          <div class="description__box">
+            <img
+              src="./img/image2.png"
+              alt="bicycle"
+              class="description__image"
+            />
+            <img
+              src="./img/image2-mob.png"
+              alt=""
+              class="description__mob-image"
+            />
+            <div class="description__text-box">
+              <h3 class="description__header">
+                Велосипед SCHWINN Traveler women 2022
+              </h3>
+              <p class="description__description">
+                Женский велосипед со стальной рамой Classic step-true
+                lightweight позволяет девушкам без проблем его перемещать.
+                <br /><br />
+                На данном велосипеде имеется 7 скоростей с переключателями от
+                Shimano, а жесткая вилка обеспечивает отличную управляемость.
+                Подходит для катания по асфальтированным поверхностям.
+              </p>
+            </div>
+          </div>
+
+          <div class="card__line"></div>
+
+          <div class="characteristics">
+            <h4 class="characteristics__title">Характеристики</h4>
+            <ol class="characteristics__list female"></ol>
+          </div>
+
+          <div class="add female">
+            <h4 class="add__title">Добавить характеристику</h4>
+            <div class="add__box">
+              <input
+                type="text"
+                class="add__input"
+                placeholder="Алюминиевый сплав"
+              />
+              <button class="add__button" value="female">Добавить</button>
+            </div>
+          </div>
+
+          <div class="confirm__box">
+            <button class="confirm__yes female" value="female">Окей</button>
+            <button class="confirm__no female" value="female">Отмена</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
